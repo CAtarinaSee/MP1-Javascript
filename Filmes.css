@@ -1,0 +1,97 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F9F5FF;
+    color: #333;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.nav-link {
+    font-size: 1rem;
+    color: #555;
+    padding: 10px;
+}
+
+.nav-link:hover {
+    color: #aba7ff;
+}
+
+/* Título Pesquisa de Filmes */
+h1 {
+    text-align: center;
+    margin: 50px 0;
+}
+
+/* Container de Género e Botão */
+.genre-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#genre {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+/* Dá-me novos filmes */
+#refreshButton {
+    padding: 5px 15px;
+    font-size: 0.9rem;
+}
+
+/* Container de Filmes */
+#movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Cartões de Filme */
+.movie-card {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #FFF;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+
+.movie-card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Cartão Genérico */
+.card {
+    margin-top: 50px;
+    background-color: #FFF;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 30px;
+}
+
+/* Botão */
+.btn {
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+    color: #FFF;
+}
+
+.btn:hover {
+    background-color: #6c0505;
+    color: #6c0505;
+}

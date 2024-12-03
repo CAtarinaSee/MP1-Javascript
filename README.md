@@ -1,2 +1,2 @@
-# MP1-Javascript
-Projeto de final de módulo introdutório - Javascript
+# CAtarinaSee.github.io
+Website desenvolvido como material de avaliação. MoodReads.

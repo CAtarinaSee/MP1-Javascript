@@ -1,0 +1,97 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F9F5FF;
+    color: #333;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.nav-link {
+    font-size: 1rem;
+    color: #555;
+    padding: 10px;
+}
+
+.nav-link:hover {
+    color: #aba7ff;
+}
+
+/* Container Principal  estilo*/
+.container {
+    margin-top: 50px;
+    background-color: #FFF;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 700px;
+    border: 2px solid #E0BBE4;
+    margin-bottom: 100px;
+}
+
+/* Título - moodquiz o que deves ler */
+h1 {
+    color: #8B5FBF;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+/* Cartão estilo */
+.card {
+    background-color: #F3E8FF;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+/* Subtítulos (questôes) */
+h5 {
+    color: #6C63FF;
+    font-weight: 500;
+}
+
+/* Checkbox Input botões de escolha  */
+.form-check-input {
+    background-color: #FF8B94;
+    border-color: #FF8B94;
+}
+
+/* Checkbox Input botões de escolha quando selecionados */
+.form-check-input:checked {
+    background-color: #817bff;
+    border-color: #817bff;
+}
+
+/* Respostas */
+#results {
+    background-color: #E0BBE4;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 20px;
+    text-align: center;
+    display: none;
+}
+
+/* Container de Respostas */
+.col-md-6 {
+    margin-bottom: 30px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F9F5FF;
+    color: #333;
+}

@@ -1,0 +1,86 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F9F5FF;
+    color: #333;
+}
+
+/* Navbar estilo*/
+.navbar-brand {
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.nav-link {
+    font-size: 1rem;
+    color: #555;
+    padding: 10px;
+}
+
+.nav-link:hover {
+    color: #aba7ff;
+}
+
+/* Container estilo*/
+.container {
+    margin-top: 50px;
+    background-color: #FFF;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 90%;
+    border: 2px solid #E0BBE4;
+}
+
+/* Título (pesquisa de livros) */
+h1 {
+    color: #8B5FBF;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+/* Resultados de Pesquisa */
+#searchResults {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#searchResults ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#searchResults li {
+    background-color: #F3E8FF;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#searchResults li:hover {
+    background-color: #E0BBE4;
+}
+
+/* Formulário de Pesquisa */
+#searchForm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Input de Pesquisa */
+#searchQuery {
+    flex-grow: 1;
+    padding: 15px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    margin-right: 10px;
+    outline: none;
+}
+
+/* Botão */
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+}
